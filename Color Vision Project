@@ -1,8 +1,8 @@
-# !!!Replace with your unique project name!!!
+# !!!Color vision Project!!!
 
 ## Description
 
-!!!Replace with a description of what your program does!!!
+!!!Makes color pallets!!!
 
 ### v0.2 Updates
 
@@ -15,7 +15,7 @@
 
 ## Developer
 
-!!!Replace with your name!!!
+!!!Nathan Gerbino!!!
 
 ## Example
 
@@ -29,30 +29,34 @@ g++ --std=c++11 *.cpp -o cvp
 Here is an example of the program running:
 
 ```
-!!!Replace with an example of the program running with user interaction!!!
+!!!Enter a premade svg color.
+Pink
+Enter a file name.
+Bean
+Your list of color combinations is ; Pink, DarkRed, DarkGreen, Indigo, White, and Black.!!!
 ```
 
 ## C++ Guide
 
 ### Variables and Data Types
 
-!!!Replace with a summary and examples of how multiple variables have been used with a variety of data types and why they have been used effectively and appropriately!!!
+!!!I'm not too sure what to put here but it works with all of the colors!!!
 
 ### Console Input and Output
 
-!!!Replace with a summary and examples of how input and output have been used effectively and appropriately!!!
+!!!The output changes with every input!!!
 
 ### Decisions
 
-!!!Replace with a summary and examples of how multiple decision constructs have been used effectively and appropriately!!!
+!!!It doesnt work that great yet it would be nice if I could make it work in quick succession!!!
 
 ### Iteration
 
-!!!Replace with a summary and examples of how iteration has been used effectively and appropriately!!!
+!!!I used alot of tryal and error to fix the bugs!!!
 
 ### File Input and Output
 
-!!!Replace with a summary and examples of how input and/or output of files have been used effectively and appropriately!!!
+!!!By changing the input and the output I figured out how to optimize how well i could make this program!!!
 
 ### Arrays/Vectors
 
