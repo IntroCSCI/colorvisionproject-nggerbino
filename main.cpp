@@ -273,7 +273,6 @@ string colorfulpersonality()// function that lets you input the value for person
     return personality;
   } 
 
-
 int main()
 {
 
