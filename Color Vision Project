@@ -1,8 +1,7 @@
 # !!!Color vision Project!!!
 
-The program i have made will give you 5 colors that are visibly diffrent even to color blind people, all you have to is either chose between the two diffrent ways of generating color, input is the name of the file a color, and if you are doing the "Personality Test" then you also have to answer the presonality question.
+*The program i have made will give you 5 colors that are visibly diffrent even to color blind people, all you have to is either chose between the two diffrent ways of generating color, input is the name of the file a color, and if you are doing the "Personality Test" then you also have to answer the presonality question.*
 
-!!!Makes color pallets!!!
 
 ### v0.2 Updates
 
@@ -29,15 +28,23 @@ g++ --std=c++11 *.cpp -o cvp
 Here is an example of the program running:
 
 ```
-!!!Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'.
+!!!"Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'.
 personalitytest
 Enter the file name.
 Nathan
 Enter a premade svg color.
-HotPink
-enter one of personality's listed that fits you the best ; 'average', 'reserved', 'self-centered', 'role-model'.
-average
-Your list of color combinations is ; HotPink, DarkRed, DarkGreen, Indigo, White, and Black.!!!
+Red
+enter one of personality's listed that fits you the best ; 'average', 'reserved', 'selfcentered', 'rolemodel'.
+rolemodel
+Your list of color combinations is ; Red, Gold, DarkGreen, Indigo, White, and SlateGray."
+Another Example
+"Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'.
+colorgenerator
+Enter the file name.
+Nathan
+Enter a premade svg color.
+Pink
+Your list of color combinations is ; Pink, DarkRed, DarkGreen, Indigo, White, and Black."!!!
 ```
 
 ## C++ Guide
@@ -64,7 +71,7 @@ Your list of color combinations is ; HotPink, DarkRed, DarkGreen, Indigo, White,
 
 ### Arrays/Vectors
 
-*Coming in version 0.2*
+*I used arrays in order to change the colors in the functions labled "personalitycolor".*
 
 ### Functions
 
