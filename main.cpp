@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cctype>
 
 using namespace std;
 
@@ -390,265 +391,94 @@ if (colorgenmethod == "personalitytest")
     if (color == "MediumVioletRed" || color == "DeepPink" || color == "PaleVioletRed" || color == "HotPink" || color == "LightPink" || color == "Pink")
 {
   
-    if (personality == "average"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
      personalitycolor1(color,filename,personality);// inputs the data into the file and puts it in the console too.
   
     break;
     }
-
-    else if (personality == "reserved"){
-    personalitycolor1(color,filename,personality);// inputs the data into the file and puts it in the console too.
-  
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor1(color,filename,personality);// inputs the data into the file and puts it in the console too.
-  
-    break;
-    }
-
-    if (personality == "rolemodel"){
-    personalitycolor1(color,filename,personality);// inputs the data into the file and puts it in the console too.
-  
-    break;
-    
-    }
 }
     else if (color == "DarkRed" ||color == "Red" ||color == "Firebrick" ||color == "Crimson" ||color == "IndianRed" ||color == "LightCoral" ||color == "Salmon" || color == "DarkSalmon" || color == "LightSalmon")
 {
-    if (personality == "average"){
-    personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+     personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
 
-    else if (personality == "reserved"){
-    personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
-
-    else if (personality == "selfcentered"){
-    personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "rolemodel"){
-    personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}
-    
+} 
     else if (color == "DarkKhaki" || color == "Gold" || color == "Khaki" || color == "PeachPuff" || color == "Yellow" || color == "PaleGoldenrod" || color == "Moccasin" || color == "PapayaWhip" || color == "LightGoldenrodYellow" || color == "LemonChiffon" || color == "LightYellow")
 {
-    if (personality == "average"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor3(color,filename,personality);// inputs the data into the file and puts it in the console too.
+
     break;
     }
-
-    else if (personality == "reserved"){
-    personalitycolor3(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor3(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "rolemodel"){
-    personalitycolor3(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
 }  
-    
     else if (color == "Maroon" || color == "Brown" || color == "SaddleBrown" || color == "Sienna" || color == "Chocolate" || color == "DarkGoldenrod" || color == "Peru" || color == "RosyBrown" || color == "Goldenrod" || color == "SandyBrown" || color == "Tan" || color == "Burlywood" || color == "Wheat" || color == "NavajoWhite" || color == "Bisque" || color == "BlanchedAlmond" || color == "Cornsilk")
 {
-    if (personality == "average"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor4(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor4(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor4(color,filename,personality);// inputs the data into the file and puts it in the console too.
-      break;
-    }
-
-    else if (personality == "rolemodel"){
-    personalitycolor4(color,filename,personality);// inputs the data into the file and puts it in the console too.
+    
     break;
     }
 }
-    
     else if (color == "DarkGreen" || color == "Green" || color == "DarkOliveGreen" || color == "ForestGreen" || color == "SeaGreen" || color == "Olive" || color == "OliveDrab" || color == "MediumSeaGreen" || color == "LimeGreen" || color == "Lime" || color == "SpringGreen" || color == "MediumSpringGreen" || color == "DarkSeaGreen" || color == "MediumAquamarine" || color == "YellowGreen" || color == "LawnGreen" || color == "Chartreuse" || color == "LightGreen" || color == "GreenYellow" || color == "PaleGreen")
 {
-    if (personality == "average"){
-    personalitycolor5(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor5(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor5(color,filename,personality);// inputs the data into the file and puts it in the console too.
-      break;
-    }
-
-    else if (personality == "rolemodel"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor5(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
 }    
     else if (color == "OrangeRed" || color == "Tomato" || color == "DarkOrange" || color == "Coral" || color == "Orange")
 {
-     if (personality == "average"){
-    personalitycolor6(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor6(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor6(color,filename,personality);// inputs the data into the file and puts it in the console too.
-      break;
-    }
-
-    else if (personality == "rolemodel"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor6(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
 }        
     else if (color == "Teal" || color == "DarkCyan" || color == "LightSeaGreen" || color == "CadetBlue" || color == "DarkTurquoise" || color == "MediumTurquoise" || color == "Turquoise" || color == "Aqua" || color == "Cyan" || color == "Aquamarine" || color == "PaleTurquoise" ||color == "LightCyan")
 {
-     if (personality == "average"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor7(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor7(color,filename,personality);// inputs the data into the file and puts it in the console too.
-       break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor7(color,filename,personality);// inputs the data into the file and puts it in the console too.
-      break;
-    }
-
-    else if (personality == "rolemodel"){
-    personalitycolor7(color,filename,personality);// inputs the data into the file and puts it in the console too.
-      break;
     }
 }        
     else if (color == "Navy" || color == "DarkBlue" || color == "MediumBlue" || color == "Blue" || color == "MidnightBlue" || color == "RoyalBlue" || color == "SteelBlue" || color == "DodgerBlue" || color == "DeepSkyBlue" || color == "CornflowerBlue" || color == "SkyBlue" || color == "LightSkyBlue" || color == "LightSteelBlue" || color == "LightBlue" || color == "PowderBlue")
 {
-     if (personality == "average"){
-    personalitycolor8(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor8(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor8(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "rolemodel"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor8(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
 }        
     else if (color == "Indigo" || color == "Purple" || color == "DarkMagenta" || color == "DarkViolet" || color == "DarkSlateBlue" || color == "BlueViolet" || color == "DarkOrchid" || color == "Fuchsia" || color == "Magenta" || color == "SlateBlue" || color == "MediumSlateBlue" || color == "MediumOrchid" || color == "MediumPurple" || color == "Orchid" || color == "Violet" || color == "Plum" || color == "Thistle" || color == "Lavender")
 {
-    if (personality == "average"){
-    personalitycolor9(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor9(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor9(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "rolemodel"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor9(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
 }        
     else if (color == "MistyRose" || color == "AntiqueWhite" || color == "Linen" || color == "Beige" || color == "WhiteSmoke" || color == "LavenderBlush" || color == "OldLace" || color == "AliceBlue" || color == "Seashell" || color == "GhostWhite" || color == "Honeydew" || color == "FloralWhite" || color == "Azure" || color == "MintCream"|| color == "Snow" || color == "Ivory" || color == "White")
 {
-     if (personality == "average"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor10(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
-
-    else if (personality == "reserved"){
-    personalitycolor10(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor10(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "rolemodel"){
-    personalitycolor10(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
+}
             
     else if (color == "Black" || color == "DarkSlateGray" || color == "DimGray" || color == "SlateGray" || color == "Gray" || color == "LightSlateGray" || color == "DarkGray" || color == "Silver" || color == "LightGray" || color == "Gainsboro")
 {
-    if (personality == "average"){
-    personalitycolor11(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "reserved"){
-    personalitycolor11(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "selfcentered"){
-    personalitycolor11(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-
-    else if (personality == "rolemodel"){
+    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
     personalitycolor11(color,filename,personality);// inputs the data into the file and puts it in the console too.
     break;
     }
 }
-break;
-} 
-  else {
-   cout << "you did not enter one of the listed personalites" << endl;
+else {
+  cout << "you did not enter one of the listed personalites" << endl;
     } 
-}
-  break;
+} 
+  
 }
 cout << "Exiting color vision project"<<endl;//displays this when loops are finished
+  
 }
-
 return 0;
 }
