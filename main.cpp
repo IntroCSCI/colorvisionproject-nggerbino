@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void personalitycolor1(string color,string filename,string personality)
+void personalitycolor1(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "MediumVioletRed", "DeepPink", "PaleVioletRed", "HotPink", "LightPink", or "Pink".
 {
 fstream myfile(filename);
 int x;
@@ -21,7 +21,7 @@ if (personality == "rolemodel")
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : "<< personalcolor[x] <<")";
 }
-void personalitycolor2(string color,string filename,string personality)
+void personalitycolor2(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "DarkRed", "Red", "Firebrick", "Crimson", "IndianRed", "LightCoral", "Salmon", "DarkSalmon", or "LightSalmon".
 {
 fstream myfile(filename);
 int x;
@@ -37,7 +37,7 @@ if (personality == "rolemodel")
 cout << "Your list of color combinations is ; "<<color<<", Gold, DarkGreen, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: Gold), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : "<< personalcolor[x] <<")";
 }
-void personalitycolor3(string color,string filename,string personality)
+void personalitycolor3(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "DarkKhaki", "Gold", "Khaki", "PeachPuff", "Yellow", "PaleGoldenrod", "Moccasin", "PapayaWhip", "LightGoldenrodYellow", "LemonChiffon", or "LightYellow"
 {
 fstream myfile(filename);
 int x;
@@ -53,7 +53,7 @@ if (personality == "rolemodel")
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor4(string color,string filename,string personality)
+void personalitycolor4(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "Maroon", "Brown", "SaddleBrown", "Sienna", "Chocolate", "DarkGoldenrod", "Peru", "RosyBrown", "Goldenrod", "SandyBrown", "Tan", "Burlywood", "Wheat", "NavajoWhite", "Bisque", "BlanchedAlmond", or "Cornsilk"
 {
 fstream myfile(filename);
 int x;
@@ -69,7 +69,7 @@ if (personality == "rolemodel")
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor5(string color,string filename,string personality)
+void personalitycolor5(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "DarkGreen", "Green", "DarkOliveGreen", "ForestGreen", "SeaGreen", "Olive", "OliveDrab", "MediumSeaGreen", "LimeGreen", "Lime", "SpringGreen", "MediumSpringGreen", "DarkSeaGreen", "MediumAquamarine", "YellowGreen", "LawnGreen", "Chartreuse", "LightGreen", "GreenYellow", or "PaleGreen"
 {
 fstream myfile(filename);
 int x;
@@ -85,7 +85,7 @@ if (personality == "rolemodel")
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, Gold, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: Gold), (color3: Indigo), (color4 : White), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor6(string color,string filename,string personality)
+void personalitycolor6(string color,string filename,string personality)//This void function is important to the personality color test, this one fuction will only work if the color the person selected was "OrangeRed", "Tomato", "DarkOrange", "Coral", or "Orange"
 {
 fstream myfile(filename);
 int x;
@@ -101,7 +101,7 @@ if (personality == "rolemodel")
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, Gold, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: Gold), (color3: Indigo), (color4 : White), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor7(string color,string filename,string personality)
+void personalitycolor7(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "Teal", "DarkCyan", "LightSeaGreen", "CadetBlue", "DarkTurquoise", "MediumTurquoise", "Turquoise", "Aqua", "Cyan", "Aquamarine", "PaleTurquoise", or "LightCyan"
 {
 fstream myfile(filename);
 int x;
@@ -117,7 +117,7 @@ if (personality == "rolemodel")
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : " <<personalcolor[x]<<")";
 }
-void personalitycolor8(string color,string filename,string personality)
+void personalitycolor8(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "Navy", "DarkBlue", "MediumBlue", "Blue", "MidnightBlue", "RoyalBlue", "SteelBlue", "DodgerBlue", "DeepSkyBlue", "CornflowerBlue", "SkyBlue", "LightSkyBlue", "LightSteelBlue", "LightBlue", or "PowderBlue"
 {
 fstream myfile(filename);
 int x;
@@ -133,7 +133,7 @@ if (personality == "rolemodel")
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor9(string color,string filename,string personality)
+void personalitycolor9(string color,string filename,string personality) //This void function is important to the personality color test, this one fuction will only work if the color the person selected was "Indigo", "Purple", "DarkMagenta", "DarkViolet", "DarkSlateBlue", "BlueViolet", "DarkOrchid", "Fuchsia", "Magenta", "SlateBlue", "MediumSlateBlue", "MediumOrchid", "MediumPurple", "Orchid", "Violet", "Plum", "Thistle", or "Lavender"
 {
 fstream myfile(filename);
 int x;
@@ -149,7 +149,7 @@ if (personality == "rolemodel")
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Gold, White, and "<<personalcolor[x]<<"." << endl;
   myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Gold), (color4 : White), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor10(string color,string filename,string personality)
+void personalitycolor10(string color,string filename,string personality)//This void function is important to the personality color test, this one fuction will only work if the color the person selected was "MistyRose", "AntiqueWhite", "Linen", "Beige", "WhiteSmoke", "LavenderBlush", "OldLace", "AliceBlue", "Seashell", "GhostWhite", "Honeydew", "FloralWhite", "Azure", "MintCream", "Snow", "Ivory", or "White"
 {
 fstream myfile(filename);
 int x;
@@ -165,7 +165,7 @@ if (personality == "rolemodel")
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, Gold, and "<<personalcolor[x]<<"." << endl;
 myfile << "color { (color: "<< color <<"),(color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : Gold), (color5 : "<<personalcolor[x]<<")";
 }
-void personalitycolor11(string color,string filename,string personality)
+void personalitycolor11(string color,string filename,string personality)//This void function is important to the personality color test, this one fuction will only work if the color the person selected was "Black", "DarkSlateGray", "DimGray", "SlateGray", "Gray", "LightSlateGray", "DarkGray", "Silver", "LightGray", or "Gainsboro"
 {
 fstream myfile(filename);
 int x;
@@ -182,77 +182,77 @@ cout <<"Your list of color combinations is ; "<<color<<", "<<personalcolor[x]<<"
 myfile << "color { (color: "<< color <<"),(color1: "<<personalcolor[x]<<"), (color2: DarkGreen),(color3: Indigo), (color4 : White), (color5 :Gold)";
 }
 
-void colornum1(string color,string filename)
+void colornum1(string color,string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "MediumVioletRed", "DeepPink", "PaleVioletRed", "HotPink", "LightPink", or "Pink"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum2(string color, string filename)
+void colornum2(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "DarkRed", "Red", "Firebrick", "Crimson", "IndianRed", "LightCoral", "Salmon", "DarkSalmon", or "LightSalmon"
 {
 fstream myfile(filename);
 cout << "Your list of color combinations is ; "<<color<<", Gold, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: Gold), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum3(string color, string filename)
+void colornum3(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "DarkKhaki", "Gold", "Khaki", "PeachPuff", "Yellow", "PaleGoldenrod", "Moccasin", "PapayaWhip", "LightGoldenrodYellow", "LemonChiffon", or "LightYellow"
 {
 fstream myfile(filename);
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum4(string color,string filename)
+void colornum4(string color,string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Maroon", "Brown", "SaddleBrown", "Sienna", "Chocolate", "DarkGoldenrod", "Peru", "RosyBrown", "Goldenrod", "SandyBrown", "Tan", "Burlywood", "Wheat", "NavajoWhite", "Bisque", "BlanchedAlmond", or "Cornsilk"
 {
 fstream myfile(filename);
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum5(string color, string filename)
+void colornum5(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "DarkGreen", "Green", "DarkOliveGreen", "ForestGreen", "SeaGreen", "Olive", "OliveDrab", "MediumSeaGreen", "LimeGreen", "Lime", "SpringGreen", "MediumSpringGreen", "DarkSeaGreen", "MediumAquamarine", "YellowGreen", "LawnGreen", "Chartreuse", "LightGreen", "GreenYellow", or "PaleGreen"
 {
 fstream myfile(filename);
 cout << "Your list of color combinations is ; "<<color<<", DarkRed, Gold, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: Gold), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum6(string color, string filename)
+void colornum6(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "OrangeRed", "Tomato", "DarkOrange", "Coral", or "Orange"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum7(string color, string filename)
+void colornum7(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Teal", "DarkCyan", "LightSeaGreen", "CadetBlue", "DarkTurquoise", "MediumTurquoise", "Turquoise", "Aqua", "Cyan", "Aquamarine", "PaleTurquoise", or "LightCyan"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum8(string color, string filename)
+void colornum8(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Navy", "DarkBlue", "MediumBlue", "Blue", "MidnightBlue", "RoyalBlue", "SteelBlue", "DodgerBlue", "DeepSkyBlue", "CornflowerBlue", "SkyBlue", "LightSkyBlue", "LightSteelBlue", "LightBlue", or "PowderBlue"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum9(string color, string filename)
+void colornum9(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Indigo", "Purple", "DarkMagenta", "DarkViolet", "DarkSlateBlue", "BlueViolet", "DarkOrchid", "Fuchsia", "Magenta", "SlateBlue", "MediumSlateBlue", "MediumOrchid", "MediumPurple", "Orchid", "Violet", "Plum", "Thistle", or "Lavender"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Gold, White, and Black." << endl;
   myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Gold), (color4 : White), (color5 : Black)";
 }
 
-void colornum10(string color, string filename)
+void colornum10(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "MistyRose", "AntiqueWhite", "Linen", "Beige", "WhiteSmoke", "LavenderBlush", "OldLace", "AliceBlue", "Seashell", "GhostWhite", "Honeydew", "FloralWhite", "Azure", "MintCream", "Snow", "Ivory", or "White"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, Gold, and Black." << endl;
 myfile << "color { (color: "<< color <<"),(color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : Gold), (color5 : Black)";
 }
 
-void colornum11(string color, string filename)
+void colornum11(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Black", "DarkSlateGray", "DimGray", "SlateGray", "Gray", "LightSlateGray", "DarkGray", "Silver", "LightGray", or "Gainsboro"
 {
 fstream myfile(filename);
 cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Gold." << endl;
@@ -296,7 +296,7 @@ cin >> filename;
 
 ofstream myfile(filename);
 
-cout << "Enter a premade svg color." << endl;
+cout << "Enter a premade svg color from the list of 147 on this website https://www.december.com/html/spec/colorsvg.html ." << endl;
 
 cin >> color;
 
