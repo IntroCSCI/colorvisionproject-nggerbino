@@ -305,7 +305,6 @@ colornum7(color, filename);//inputs the data into the file and puts it in the co
 int z=1;
 }
 }
-
 void colorcompair8(string color, string filename){
 if (color == "navy" || color == "darkblue" || color == "mediumblue" || color == "blue" || color == "midnightblue" || color == "royalblue" || color == "steelblue" || color == "dodgerblue" || color == "deepskyblue" || color == "cornflowerblue" || color == "skyblue" || color == "lightskyblue" || color == "lightsteelblue" || color == "lightblue" || color == "powderblue")
 {
