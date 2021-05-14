@@ -97,4 +97,4 @@ If you did not see a list of colors then you did not choose a personality. Would
 
 ### Classes
 
-*Coming in version 1.0*
+*I used classes to hold many of my multuple data types, to hold my data a little bit better and also alowing of me to minipulate that data a bit better.*

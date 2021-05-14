@@ -12,14 +12,14 @@ using std::string;
 class colors{
 
   private:
-    
-  public:
-    string color;
-    string colorgenmethod;
-    string filename;
-    string personality;
-    string myfile= "myfile";
     int z;
+  public:
+    string color;// color the person put into the system
+    string colorgenmethod;//what color genmethod the system is using
+    string filename;//what the file name is
+    string personality;// what the person put in as their personality
+    string myfile= "myfile";
+    
     
     colors (string color, string colorgenmethod, string filename, string personality);
   
