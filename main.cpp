@@ -3,6 +3,8 @@
 #include <fstream>
 #include <string>
 #include <cctype>
+#include "colors.h"
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -225,11 +227,11 @@ cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, In
 myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
-void colornum7(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Teal", "DarkCyan", "LightSeaGreen", "CadetBlue", "DarkTurquoise", "MediumTurquoise", "Turquoise", "Aqua", "Cyan", "Aquamarine", "PaleTurquoise", or "LightCyan"
+void colornum7(string color1, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Teal", "DarkCyan", "LightSeaGreen", "CadetBlue", "DarkTurquoise", "MediumTurquoise", "Turquoise", "Aqua", "Cyan", "Aquamarine", "PaleTurquoise", or "LightCyan"
 {
 fstream myfile(filename);
-cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
-myfile << "color { (color: "<< color <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
+cout <<"Your list of color combinations is ; "<<color1<<", DarkRed, DarkGreen, Indigo, White, and Black." << endl;
+myfile << "color { (color: "<< color1 <<"), (color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 : Black)";
 }
 
 void colornum8(string color, string filename) //This prints out your color combinations basied the color the person selected, if the color they selcted is "Navy", "DarkBlue", "MediumBlue", "Blue", "MidnightBlue", "RoyalBlue", "SteelBlue", "DodgerBlue", "DeepSkyBlue", "CornflowerBlue", "SkyBlue", "LightSkyBlue", "LightSteelBlue", "LightBlue", or "PowderBlue"
@@ -260,6 +262,178 @@ cout <<"Your list of color combinations is ; "<<color<<", DarkRed, DarkGreen, In
   myfile << "color { (color: "<< color <<"),(color1: DarkRed), (color2: DarkGreen), (color3: Indigo), (color4 : White), (color5 :Gold)";
 }
 
+void colorcompair1(string color, string filename){
+if (color == "mediumvioletred" || color == "deeppink" || color == "palevioletred" || color == "hotpink" || color == "lightpink" || color == "pink")
+{
+colornum1(color,filename);// inputs the data into the file and puts it in the console too.  
+}
+}
+void colorcompair2(string color, string filename){
+if (color == "darkred" ||color == "red" ||color == "firebrick" ||color == "crimson" ||color == "indianred" ||color == "lightcoral" ||color == "salmon" || color == "darksalmon" || color == "lightsalmon")
+{
+colornum2(color, filename);// inputs the data into the file and puts it in the console too.
+}
+}
+void colorcompair3(string color, string filename){
+if (color == "darkkhaki" || color == "gold" || color == "khaki" || color == "peachpuff" || color == "yellow" || color == "palegoldenrod" || color == "moccasin" || color == "papayawhip" || color == "lightgoldenrodyellow" || color == "lemonchiffon" || color == "lightyellow")
+{
+colornum3(color, filename);// inputs the data into the file and puts it in the console too.
+}
+}
+void colorcompair4(string color, string filename){
+if (color == "maroon" || color == "brown" || color == "saddlebrown" || color == "sienna" || color == "chocolate" || color == "darkgoldenrod" || color == "peru" || color == "rosybrown" || color == "goldenrod" || color == "sandybrown" || color == "tan" || color == "burlywood" || color == "wheat" || color == "navajowhite" || color == "bisque" || color == "blanchedalmond" || color == "cornsilk")
+{
+colornum4(color, filename);// inputs the data into the file and puts it in the console too.
+}
+}
+void colorcompair5(string color, string filename){
+if (color == "darkgreen" || color == "green" || color == "darkolivegreen" || color == "forestgreen" || color == "seagreen" || color == "olive" || color == "olivedrab" || color == "mediumseagreen" || color == "limegreen" || color == "lime" || color == "springgreen" || color == "mediumspringgreen" || color == "darkseagreen" || color == "mediumaquamarine" || color == "yellowgreen" || color == "lawngreen" || color == "chartreuse" || color == "lightgreen" || color == "greenyellow" || color == "palegreen")
+{
+colornum5(color, filename);// inputs the data into the file and puts it in the console too.
+}
+}
+void colorcompair6(string color, string filename){
+if (color == "orangered" || color == "tomato" || color == "darkorange" || color == "coral" || color == "orange")
+{
+colornum6(color, filename);// inputs the data into the file and puts it in the console too.
+}
+}
+void colorcompair7(string color, string filename){
+if (color == "teal" || color == "darkcyan" || color == "lightseagreen" || color == "cadetblue" || color == "darkturquoise" || color == "mediumturquoise" || color == "turquoise" || color == "aqua" || color == "cyan" || color == "aquamarine" || color == "paleturquoise" ||color == "lightcyan")
+{
+colornum7(color, filename);//inputs the data into the file and puts it in the console too.
+}
+}
+
+void colorcompair8(string color, string filename){
+if (color == "navy" || color == "darkblue" || color == "mediumblue" || color == "blue" || color == "midnightblue" || color == "royalblue" || color == "steelblue" || color == "dodgerblue" || color == "deepskyblue" || color == "cornflowerblue" || color == "skyblue" || color == "lightskyblue" || color == "lightsteelblue" || color == "lightblue" || color == "powderblue")
+{
+colornum8(color, filename);//inputs the data into the file and puts it in the console too.
+}
+}
+
+void colorcompair9(string color, string filename){
+if (color == "indigo" || color == "purple" || color == "darkmagenta" || color == "darkviolet" || color == "darkslateblue" || color == "blueviolet" || color == "darkorchid" || color == "fuchsia" || color == "magenta" || color == "slateblue" || color == "mediumslateblue" || color == "mediumorchid" || color == "mediumpurple" || color == "orchid" || color == "violet" || color == "plum" || color == "thistle" || color == "lavender")
+{
+colornum9(color, filename);//inputs the data into the file and puts it in the console too.
+}
+}
+
+void colorcompair10(string color, string filename){
+if (color == "mistyrose" || color == "antiquewhite" || color == "linen" || color == "beige" || color == "whitesmoke" || color == "lavenderblush" || color == "oldlace" || color == "aliceblue" || color == "seashell" || color == "ghostwhite" || color == "honeydew" || color == "floralwhite" || color == "azure" || color == "mintcream"|| color == "snow" || color == "ivory" || color == "white")
+{
+colornum10(color, filename);//inputs the data into the file and puts it in the console too.
+}
+}
+void colorcompair11(string color, string filename){
+if (color == "black" || color == "darkslategray" || color == "dimgray" || color == "slategray" || color == "gray" || color == "lightslategray" || color == "darkgray" || color == "silver" || color == "lightgray" || color == "gainsboro")
+{
+colornum11(color, filename);//inputs the data into the file and puts it in the console too.
+
+}
+}
+void colorcompair12(string color, string filename){
+if (color != "mediumvioletred" || color != "deeppink" || color != "palevioletred" || color != "hotpink" || color != "lightpink" || color != "pink" || color != "darkred" || color != "red" || color != "firebrick" || color != "crimson" || color != "indianred" || color != "lightcoral" || color != "salmon" || color != "darksalmon" || color != "lightsalmon" || color != "darkkhaki" || color != "gold" || color != "khaki" || color != "peachpuff" || color != "yellow" || color != "palegoldenrod" || color != "moccasin" || color != "papayawhip" || color != "lightgoldenrodyellow" || color != "lemonchiffon" || color != "lightyellow" || color != "maroon" || color != "brown" || color != "saddlebrown" || color != "sienna" || color != "chocolate" || color != "darkgoldenrod" || color != "peru" || color != "rosybrown" || color != "goldenrod" || color != "sandybrown" || color != "tan" || color != "burlywood" || color != "wheat"|| color != "navajowhite" || color != "bisque" || color != "blanchedalmond" || color != "cornsilk" || color != "darkgreen" || color != "green" || color != "darkolivegreen" || color != "forestgreen" || color != "seagreen" || color != "olive" || color != "olivedrab" || color != "mediumseagreen" || color != "limegreen" || color != "lime" || color != "springgreen" || color != "mediumspringgreen" || color != "darkseagreen" || color != "mediumaquamarine" || color != "yellowgreen" || color != "lawngreen" || color != "chartreuse" || color != "lightgreen" || color != "greenyellow" || color != "palegreen" || color != "orangered" || color != "tomato" || color != "darkorange" || color != "coral" || color != "orange" || color != "teal" || color != "darkcyan" || color != "lightseagreen" || color != "cadetblue" || color != "darkturquoise" || color != "mediumturquoise" || color != "turquoise" || color != "aqua" || color != "cyan" || color != "aquamarine" || color != "paleturquoise" ||color != "lightcyan" || color != "navy" || color != "darkblue" || color != "mediumblue" || color != "blue" || color != "midnightblue" || color != "royalblue" || color != "steelblue" || color != "dodgerblue" || color != "deepskyblue" || color != "cornflowerblue" || color != "skyblue" || color != "lightskyblue" || color != "lightsteelblue" || color != "lightblue" || color != "powderblue" || color != "indigo" || color != "purple" || color != "darkmagenta" || color != "darkviolet" || color != "darkslateblue" || color != "blueviolet" || color != "darkorchid" || color != "fuchsia" || color != "magenta" || color != "slateblue" || color != "mediumslateblue" || color != "mediumorchid" || color != "mediumpurple" || color != "orchid" || color != "violet" || color != "plum" || color != "thistle" || color != "lavender" || color != "mistyrose" || color != "antiquewhite" || color != "linen" || color != "beige" || color != "whitesmoke" || color != "lavenderblush" || color != "oldlace" || color != "aliceblue" || color != "seashell" || color != "ghostwhite" || color != "honeydew" || color != "floralwhite" || color != "azure" || color != "mintcream"|| color != "snow" || color != "ivory" || color != "white" || color != "black" || color != "darkslategray" || color != "dimgray" || color != "slategray" || color != "gray" || color != "lightslategray" || color != "darkgray" || color != "silver" || color != "lightgray" || color != "gainsboro")
+{
+cout <<"Not one of the SVG colors" <<endl;//if none of the colors are detected then it will return this statement.
+}
+}
+
+void colorfulcompair1(string color,string personality, string filename)
+{
+  if (color == "mediumvioletred" || color == "deeppink" || color == "palevioletred" || color == "hotpink" || color == "lightpink" || color == "pink")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor1(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+void colorfulcompair2(string color,string personality, string filename)
+{
+  if (color == "darkred" ||color == "red" ||color == "firebrick" ||color == "crimson" ||color == "indianred" ||color == "lightcoral" ||color == "salmon" || color == "darksalmon" || color == "lightsalmon")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
+
+}}}
+
+void colorfulcompair3(string color,string personality, string filename)
+{
+  if (color == "darkkhaki" || color == "gold" || color == "khaki" || color == "peachpuff" || color == "yellow" || color == "palegoldenrod" || color == "moccasin" || color == "papayawhip" || color == "lightgoldenrodyellow" || color == "lemonchiffon" || color == "lightyellow")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor3(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair4(string color,string personality, string filename)
+{
+if (color == "maroon" || color == "brown" || color == "saddlebrown" || color == "sienna" || color == "chocolate" || color == "darkgoldenrod" || color == "peru" || color == "rosybrown" || color == "goldenrod" || color == "sandybrown" || color == "tan" || color == "burlywood" || color == "wheat" || color == "navajowhite" || color == "bisque" || color == "blanchedalmond" || color == "cornsilk")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor4(color,filename,personality);// inputs the data into the file and puts it in the console too.   
+}}}
+
+void colorfulcompair5(string color,string personality, string filename)
+{
+  if (color == "darkgreen" || color == "green" || color == "darkolivegreen" || color == "forestgreen" || color == "seagreen" || color == "olive" || color == "olivedrab" || color == "mediumseagreen" || color == "limegreen" || color == "lime" || color == "springgreen" || color == "mediumspringgreen" || color == "darkseagreen" || color == "mediumaquamarine" || color == "yellowgreen" || color == "lawngreen" || color == "chartreuse" || color == "lightgreen" || color == "greenyellow" || color == "palegreen")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor5(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair6(string color,string personality, string filename)
+{
+  if (color == "orangered" || color == "tomato" || color == "darkorange" || color == "coral" || color == "orange")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor6(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair7(string color,string personality, string filename)
+{
+  if (color == "teal" || color == "darkcyan" || color == "lightseagreen" || color == "cadetblue" || color == "darkturquoise" || color == "mediumturquoise" || color == "turquoise" || color == "aqua" || color == "cyan" || color == "aquamarine" || color == "paleturquoise" ||color == "lightcyan")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor7(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair8(string color,string personality, string filename)
+{
+  if (color == "navy" || color == "darkblue" || color == "mediumblue" || color == "blue" || color == "midnightblue" || color == "royalblue" || color == "steelblue" || color == "dodgerblue" || color == "deepskyblue" || color == "cornflowerblue" || color == "skyblue" || color == "lightskyblue" || color == "lightsteelblue" || color == "lightblue" || color == "powderblue")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor8(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair9(string color,string personality, string filename)
+{
+  if (color == "indigo" || color == "purple" || color == "darkmagenta" || color == "darkviolet" || color == "darkslateblue" || color == "blueviolet" || color == "darkorchid" || color == "fuchsia" || color == "magenta" || color == "slateblue" || color == "mediumslateblue" || color == "mediumorchid" || color == "mediumpurple" || color == "orchid" || color == "violet" || color == "plum" || color == "thistle" || color == "lavender")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor9(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair10(string color,string personality, string filename)
+{
+  if (color == "mistyrose" || color == "antiquewhite" || color == "linen" || color == "beige" || color == "whitesmoke" || color == "lavenderblush" || color == "oldlace" || color == "aliceblue" || color == "seashell" || color == "ghostwhite" || color == "honeydew" || color == "floralwhite" || color == "azure" || color == "mintcream"|| color == "snow" || color == "ivory" || color == "white")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor10(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+void colorfulcompair11(string color,string personality, string filename)
+{
+  if (color == "black" || color == "darkslategray" || color == "dimgray" || color == "slategray" || color == "gray" || color == "lightslategray" || color == "darkgray" || color == "silver" || color == "lightgray" || color == "gainsboro")
+{
+  if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
+  personalitycolor11(color,filename,personality);// inputs the data into the file and puts it in the console too.
+}}}
+
+//void colorfulcompair12(string color,string personality, string filename)
+//{
+//if (personality != "average" || personality != "reserved" || personality != "selfcentered" || personality != "rolemodel"){
+//cout << "you did not enter one of the listed personalites" << endl;
+//}
+//}
+
 string colorfulpersonality()// function that lets you input the value for personality
   {
     string filename;
@@ -271,6 +445,8 @@ string colorfulpersonality()// function that lets you input the value for person
     cin >> personality;
 
     int loop =2;
+    if (personality != "average" || personality != "reserved" || personality != "selfcentered" || personality != "rolemodel")
+    cout << "you did not enter one of the listed personalites" << endl;
     return personality;
   } 
 
@@ -281,19 +457,24 @@ string personality;
 
 string colorgenmethod;// This tells the program wether or not it will be a basic color generation or a presonality based generation.
 
-string filename;
+string filename;// This tells us what the filenanme will be
 
-string color;
+string color;// The color the person who uses the code decides
 
 fstream reader;
 
-cout << "Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'." << endl;
+string again;
 
-cin >> colorgenmethod;
+int z =0;
+
+cout << "Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'." << endl;
+getline(cin, colorgenmethod);
+//cin >> colorgenmethod;
+transform(colorgenmethod.begin(), colorgenmethod.end(), colorgenmethod.begin(), ::tolower);
 
 cout << "Enter the file name." << endl;
-
-cin >> filename;
+getline(cin, filename);
+//cin >> filename;
 
 ofstream myfile(filename);
 
@@ -301,184 +482,109 @@ cout << "Enter a premade svg color from the list of 147 on this website https://
 
 cin >> color;
 
+transform(color.begin(), color.end(), color.begin(), ::tolower);
+
 int loop = 1;
 
 while (loop==1){
+if (again== "yes")
+{cout << "Enter a premade svg color from the list of 147 on this website https://www.december.com/html/spec/colorsvg.html ." << endl;
 
-if (colorgenmethod == "colorgenerator")
-{
+cin >> color;
 
-if (color == "MediumVioletRed" || color == "DeepPink" || color == "PaleVioletRed" || color == "HotPink" || color == "LightPink" || color == "Pink")
+transform(color.begin(), color.end(), color.begin(), ::tolower);//making color not casesensitive
+}
+colors color1 {color, colorgenmethod, filename, personality};
+color1.color = color;
+ 
+//newly included
+if (color1.colorgenmethod == "colorgenerator")// basic colorgenerator
 {
-  colornum1(color,filename);// inputs the data into the file and puts it in the console too.  
+colors color1 {color, colorgenmethod, filename, personality};
+
+
+colorcompair1(color1.color, color1.filename);// if it is "MediumVioletRed", "DeepPink", "PaleVioletRed", "HotPink", "LightPink", or "Pink" it will gerate the colors using this command.
+
+colorcompair2(color1.color, color1.filename);// if it is "DarkRed", "Red", "Firebrick", "Crimson", "IndianRed", "LightCoral", "Salmon", "DarkSalmon", or "LightSalmon" it will gerate the colors using this command.
+
+colorcompair3(color1.color, color1.filename);// if it is "DarkKhaki", "Gold", "Khaki", "PeachPuff", "Yellow", "PaleGoldenrod", "Moccasin", "PapayaWhip", "LightGoldenrodYellow", "LemonChiffon", or "LightYellow" it will gerate the colors using this command.
+
+colorcompair4(color1.color, color1.filename);// if it is "Maroon", "Brown", "SaddleBrown", "Sienna", "Chocolate", "DarkGoldenrod", "Peru", "RosyBrown", "Goldenrod", "SandyBrown", "Tan", "Burlywood", "Wheat", "NavajoWhite", "Bisque", "BlanchedAlmond", or "Cornsilk" it will gerate the colors using this command.
+
+colorcompair5(color1.color, color1.filename);// if it is "DarkGreen", "Green", "DarkOliveGreen", "ForestGreen", "SeaGreen", "Olive", "OliveDrab", "MediumSeaGreen", "LimeGreen", "Lime", "SpringGreen", "MediumSpringGreen", "DarkSeaGreen", "MediumAquamarine", "YellowGreen", "LawnGreen", "Chartreuse", "LightGreen", "GreenYellow", or "PaleGreen" it will gerate the colors using this command.
+
+colorcompair6(color1.color, color1.filename);// if it is "OrangeRed", "Tomato", "DarkOrange", "Coral", or "Orange" it will gerate the colors using this command.
+
+colorcompair7(color1.color, color1.filename);// if it is "Teal", "DarkCyan", "LightSeaGreen", "CadetBlue", "DarkTurquoise", "MediumTurquoise", "Turquoise", "Aqua", "Cyan", "Aquamarine", "PaleTurquoise", or "LightCyan" it will gerate the colors using this command.
+
+colorcompair8(color1.color, color1.filename);// if it is "Navy", "DarkBlue", "MediumBlue", "Blue", "MidnightBlue", "RoyalBlue", "SteelBlue", "DodgerBlue", "DeepSkyBlue", "CornflowerBlue", "SkyBlue", "LightSkyBlue", "LightSteelBlue", "LightBlue", or "PowderBlue" it will gerate the colors using this command.
+
+colorcompair9(color1.color, color1.filename);// if it is "Indigo", "Purple", "DarkMagenta", "DarkViolet", "DarkSlateBlue", "BlueViolet", "DarkOrchid", "Fuchsia", "Magenta", "SlateBlue", "MediumSlateBlue", "MediumOrchid", "MediumPurple", "Orchid", "Violet", "Plum", "Thistle", or "Lavender" it will gerate the colors using this command.
+
+colorcompair10(color1.color, color1.filename);// if it is "MistyRose", "AntiqueWhite", "Linen", "Beige", "WhiteSmoke", "LavenderBlush", "OldLace", "AliceBlue", "Seashell", "GhostWhite", "Honeydew", "FloralWhite", "Azure", "MintCream", "Snow", "Ivory", or "White" it will gerate the colors using this command.
+
+colorcompair11(color1.color, color1.filename);// if it is "DarkSlateGray", "DimGray", "SlateGray", "Gray", "LightSlateGray", "DarkGray", "Silver", "LightGray", or "Gainsboro" it will gerate the colors using this command.
+
+colorcompair12(color1.color, color1.filename);//if it is none of the colors it will gerate a message saying that none of the colors match the imputed color.
+
+
+}
+cout << "Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program" << endl;
+  cin >> again;
+transform(again.begin(), again.end(), again.begin(), ::tolower);
+  if (again == "no")
   break;
+  
+
 }
 
-else if (color == "DarkRed" ||color == "Red" ||color == "Firebrick" ||color == "Crimson" ||color == "IndianRed" ||color == "LightCoral" ||color == "Salmon" || color == "DarkSalmon" || color == "LightSalmon")
+colors color1 {color, colorgenmethod, filename, personality};
+
+if (color1.colorgenmethod == "personalitytest")
 {
-colornum2(color, filename);// inputs the data into the file and puts it in the console too.
-break;
-}
 
-else if (color == "DarkKhaki" || color == "Gold" || color == "Khaki" || color == "PeachPuff" || color == "Yellow" || color == "PaleGoldenrod" || color == "Moccasin" || color == "PapayaWhip" || color == "LightGoldenrodYellow" || color == "LemonChiffon" || color == "LightYellow")
-{
-colornum3(color, filename);// inputs the data into the file and puts it in the console too.
-break;
-}
-
-else if (color == "Maroon" || color == "Brown" || color == "SaddleBrown" || color == "Sienna" || color == "Chocolate" || color == "DarkGoldenrod" || color == "Peru" || color == "RosyBrown" || color == "Goldenrod" || color == "SandyBrown" || color == "Tan" || color == "Burlywood" || color == "Wheat" || color == "NavajoWhite" || color == "Bisque" || color == "BlanchedAlmond" || color == "Cornsilk")
-{
-colornum4(color, filename);// inputs the data into the file and puts it in the console too.
-
-break;
-}
-
-else if (color == "DarkGreen" || color == "Green" || color == "DarkOliveGreen" || color == "ForestGreen" || color == "SeaGreen" || color == "Olive" || color == "OliveDrab" || color == "MediumSeaGreen" || color == "LimeGreen" || color == "Lime" || color == "SpringGreen" || color == "MediumSpringGreen" || color == "DarkSeaGreen" || color == "MediumAquamarine" || color == "YellowGreen" || color == "LawnGreen" || color == "Chartreuse" || color == "LightGreen" || color == "GreenYellow" || color == "PaleGreen")
-{
-colornum5(color, filename);// inputs the data into the file and puts it in the console too.
-
-break;
-}
-
-else if (color == "OrangeRed" || color == "Tomato" || color == "DarkOrange" || color == "Coral" || color == "Orange")
-{
-colornum6(color, filename);// inputs the data into the file and puts it in the console too.
-break;
-}
-
-else if (color == "Teal" || color == "DarkCyan" || color == "LightSeaGreen" || color == "CadetBlue" || color == "DarkTurquoise" || color == "MediumTurquoise" || color == "Turquoise" || color == "Aqua" || color == "Cyan" || color == "Aquamarine" || color == "PaleTurquoise" ||color == "LightCyan")
-{
-colornum7(color, filename);//inputs the data into the file and puts it in the console too.
-  break;
-}
-
-else if (color == "Navy" || color == "DarkBlue" || color == "MediumBlue" || color == "Blue" || color == "MidnightBlue" || color == "RoyalBlue" || color == "SteelBlue" || color == "DodgerBlue" || color == "DeepSkyBlue" || color == "CornflowerBlue" || color == "SkyBlue" || color == "LightSkyBlue" || color == "LightSteelBlue" || color == "LightBlue" || color == "PowderBlue")
-{
-  colornum8(color, filename);//inputs the data into the file and puts it in the console too.
-  break;
-}
-
-else if (color == "Indigo" || color == "Purple" || color == "DarkMagenta" || color == "DarkViolet" || color == "DarkSlateBlue" || color == "BlueViolet" || color == "DarkOrchid" || color == "Fuchsia" || color == "Magenta" || color == "SlateBlue" || color == "MediumSlateBlue" || color == "MediumOrchid" || color == "MediumPurple" || color == "Orchid" || color == "Violet" || color == "Plum" || color == "Thistle" || color == "Lavender")
-{
-  colornum9(color, filename);//inputs the data into the file and puts it in the console too.
-  break;
-}
-
-else if (color == "MistyRose" || color == "AntiqueWhite" || color == "Linen" || color == "Beige" || color == "WhiteSmoke" || color == "LavenderBlush" || color == "OldLace" || color == "AliceBlue" || color == "Seashell" || color == "GhostWhite" || color == "Honeydew" || color == "FloralWhite" || color == "Azure" || color == "MintCream"|| color == "Snow" || color == "Ivory" || color == "White")
-{
-  colornum10(color, filename);//inputs the data into the file and puts it in the console too.
-  break;
-}
-
-else if (color == "Black" || color == "DarkSlateGray" || color == "DimGray" || color == "SlateGray" || color == "Gray" || color == "LightSlateGray" || color == "DarkGray" || color == "Silver" || color == "LightGray" || color == "Gainsboro")
-{
-colornum11(color, filename);//inputs the data into the file and puts it in the console too.
-  break;
-}
-else {
-cout <<"Not one of the SVG colors" <<endl;//if none of the colors are detected then it will return this statement.
-return 0;
-}
-}
-if (colorgenmethod == "personalitytest")
-{
   loop = 2;
- while (loop==2){
+  while (loop==2){
 
  
   personality = colorfulpersonality();//call back to the colorfulpersonality function.
-    
-    if (color == "MediumVioletRed" || color == "DeepPink" || color == "PaleVioletRed" || color == "HotPink" || color == "LightPink" || color == "Pink")
-{
-  
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-     personalitycolor1(color,filename,personality);// inputs the data into the file and puts it in the console too.
-  
-    break;
-    }
-}
-    else if (color == "DarkRed" ||color == "Red" ||color == "Firebrick" ||color == "Crimson" ||color == "IndianRed" ||color == "LightCoral" ||color == "Salmon" || color == "DarkSalmon" || color == "LightSalmon")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-     personalitycolor2(color,filename,personality);// inputs the data into the file and puts it in the console too.
+  colors color1 {color, colorgenmethod, filename, personality};
+  color1.color = color;
 
-    break;
-    }
-} 
-    else if (color == "DarkKhaki" || color == "Gold" || color == "Khaki" || color == "PeachPuff" || color == "Yellow" || color == "PaleGoldenrod" || color == "Moccasin" || color == "PapayaWhip" || color == "LightGoldenrodYellow" || color == "LemonChiffon" || color == "LightYellow")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor3(color,filename,personality);// inputs the data into the file and puts it in the console too.
+  colorfulcompair1(color1.color,color1.personality, color1.filename);// if it is "MediumVioletRed", "DeepPink", "PaleVioletRed", "HotPink", "LightPink", or "Pink" it will gerate the colors using this command.
 
-    break;
-    }
-}  
-    else if (color == "Maroon" || color == "Brown" || color == "SaddleBrown" || color == "Sienna" || color == "Chocolate" || color == "DarkGoldenrod" || color == "Peru" || color == "RosyBrown" || color == "Goldenrod" || color == "SandyBrown" || color == "Tan" || color == "Burlywood" || color == "Wheat" || color == "NavajoWhite" || color == "Bisque" || color == "BlanchedAlmond" || color == "Cornsilk")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor4(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    
-    break;
-    }
+  colorfulcompair2(color1.color,color1.personality, color1.filename);// if it is "DarkRed", "Red", "Firebrick", "Crimson", "IndianRed", "LightCoral", "Salmon", "DarkSalmon", or "LightSalmon" it will gerate the colors using this command.
+
+  colorfulcompair3(color1.color,color1.personality, color1.filename);// if it is "DarkKhaki", "Gold", "Khaki", "PeachPuff", "Yellow", "PaleGoldenrod", "Moccasin", "PapayaWhip", "LightGoldenrodYellow", "LemonChiffon", or "LightYellow" it will gerate the colors using this command.
+
+  colorfulcompair4(color1.color,color1.personality, color1.filename);// if it is "Maroon", "Brown", "SaddleBrown", "Sienna", "Chocolate", "DarkGoldenrod", "Peru", "RosyBrown", "Goldenrod", "SandyBrown", "Tan", "Burlywood", "Wheat", "NavajoWhite", "Bisque", "BlanchedAlmond", or "Cornsilk" it will gerate the colors using this command.
+
+  colorfulcompair5(color1.color,color1.personality, color1.filename);// if it is "DarkGreen", "Green", "DarkOliveGreen", "ForestGreen", "SeaGreen", "Olive", "OliveDrab", "MediumSeaGreen", "LimeGreen", "Lime", "SpringGreen", "MediumSpringGreen", "DarkSeaGreen", "MediumAquamarine", "YellowGreen", "LawnGreen", "Chartreuse", "LightGreen", "GreenYellow", or "PaleGreen" it will gerate the colors using this command.
+
+  colorfulcompair6(color1.color,color1.personality, color1.filename);// if it is "OrangeRed", "Tomato", "DarkOrange", "Coral", or "Orange" it will gerate the colors using this command.
+
+  colorfulcompair7(color1.color,color1.personality, color1.filename);// if it is "Teal", "DarkCyan", "LightSeaGreen", "CadetBlue", "DarkTurquoise", "MediumTurquoise", "Turquoise", "Aqua", "Cyan", "Aquamarine", "PaleTurquoise", or "LightCyan" it will gerate the colors using this command.
+
+  colorfulcompair8(color1.color,color1.personality, color1.filename);// if it is "Navy", "DarkBlue", "MediumBlue", "Blue", "MidnightBlue", "RoyalBlue", "SteelBlue", "DodgerBlue", "DeepSkyBlue", "CornflowerBlue", "SkyBlue", "LightSkyBlue", "LightSteelBlue", "LightBlue", or "PowderBlue" it will gerate the colors using this command.
+
+  colorfulcompair9(color1.color,color1.personality, color1.filename);// if it is "Indigo", "Purple", "DarkMagenta", "DarkViolet", "DarkSlateBlue", "BlueViolet", "DarkOrchid", "Fuchsia", "Magenta", "SlateBlue", "MediumSlateBlue", "MediumOrchid", "MediumPurple", "Orchid", "Violet", "Plum", "Thistle", or "Lavender" it will gerate the colors using this command.
+
+  colorfulcompair10(color1.color,color1.personality, color1.filename);// if it is "MistyRose", "AntiqueWhite", "Linen", "Beige", "WhiteSmoke", "LavenderBlush", "OldLace", "AliceBlue", "Seashell", "GhostWhite", "Honeydew", "FloralWhite", "Azure", "MintCream", "Snow", "Ivory", or "White" it will gerate the colors using this command.
+
+  colorfulcompair11(color1.color,color1.personality, color1.filename);// if it is "DarkSlateGray", "DimGray", "SlateGray", "Gray", "LightSlateGray", "DarkGray", "Silver", "LightGray", or "Gainsboro" it will gerate the colors using this command.
+
+  //colorfulcompair12(color,personality, filename);
+
+  cout << "Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program" << endl;
+  cin >> again;
+transform(again.begin(), again.end(), again.begin(), ::tolower);// making the answer not casesensitive
+  if (again == "no")
+  break;
+  
 }
-    else if (color == "DarkGreen" || color == "Green" || color == "DarkOliveGreen" || color == "ForestGreen" || color == "SeaGreen" || color == "Olive" || color == "OliveDrab" || color == "MediumSeaGreen" || color == "LimeGreen" || color == "Lime" || color == "SpringGreen" || color == "MediumSpringGreen" || color == "DarkSeaGreen" || color == "MediumAquamarine" || color == "YellowGreen" || color == "LawnGreen" || color == "Chartreuse" || color == "LightGreen" || color == "GreenYellow" || color == "PaleGreen")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor5(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}    
-    else if (color == "OrangeRed" || color == "Tomato" || color == "DarkOrange" || color == "Coral" || color == "Orange")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor6(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}        
-    else if (color == "Teal" || color == "DarkCyan" || color == "LightSeaGreen" || color == "CadetBlue" || color == "DarkTurquoise" || color == "MediumTurquoise" || color == "Turquoise" || color == "Aqua" || color == "Cyan" || color == "Aquamarine" || color == "PaleTurquoise" ||color == "LightCyan")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor7(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}        
-    else if (color == "Navy" || color == "DarkBlue" || color == "MediumBlue" || color == "Blue" || color == "MidnightBlue" || color == "RoyalBlue" || color == "SteelBlue" || color == "DodgerBlue" || color == "DeepSkyBlue" || color == "CornflowerBlue" || color == "SkyBlue" || color == "LightSkyBlue" || color == "LightSteelBlue" || color == "LightBlue" || color == "PowderBlue")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor8(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}        
-    else if (color == "Indigo" || color == "Purple" || color == "DarkMagenta" || color == "DarkViolet" || color == "DarkSlateBlue" || color == "BlueViolet" || color == "DarkOrchid" || color == "Fuchsia" || color == "Magenta" || color == "SlateBlue" || color == "MediumSlateBlue" || color == "MediumOrchid" || color == "MediumPurple" || color == "Orchid" || color == "Violet" || color == "Plum" || color == "Thistle" || color == "Lavender")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor9(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}        
-    else if (color == "MistyRose" || color == "AntiqueWhite" || color == "Linen" || color == "Beige" || color == "WhiteSmoke" || color == "LavenderBlush" || color == "OldLace" || color == "AliceBlue" || color == "Seashell" || color == "GhostWhite" || color == "Honeydew" || color == "FloralWhite" || color == "Azure" || color == "MintCream"|| color == "Snow" || color == "Ivory" || color == "White")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor10(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}
-            
-    else if (color == "Black" || color == "DarkSlateGray" || color == "DimGray" || color == "SlateGray" || color == "Gray" || color == "LightSlateGray" || color == "DarkGray" || color == "Silver" || color == "LightGray" || color == "Gainsboro")
-{
-    if (personality == "average" || personality == "reserved" || personality == "selfcentered" || personality == "rolemodel"){
-    personalitycolor11(color,filename,personality);// inputs the data into the file and puts it in the console too.
-    break;
-    }
-}
-else {
-  cout << "you did not enter one of the listed personalites" << endl;
-    } 
-} 
   
 }
 cout << "Exiting color vision project"<<endl;//displays this when loops are finished
-  
-}
-return 0;
+return 0; 
+
 }
