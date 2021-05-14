@@ -302,6 +302,7 @@ void colorcompair7(string color, string filename){
 if (color == "teal" || color == "darkcyan" || color == "lightseagreen" || color == "cadetblue" || color == "darkturquoise" || color == "mediumturquoise" || color == "turquoise" || color == "aqua" || color == "cyan" || color == "aquamarine" || color == "paleturquoise" ||color == "lightcyan")
 {
 colornum7(color, filename);//inputs the data into the file and puts it in the console too.
+int z=1;
 }
 }
 
@@ -329,12 +330,12 @@ void colorcompair11(string color, string filename){
 if (color == "black" || color == "darkslategray" || color == "dimgray" || color == "slategray" || color == "gray" || color == "lightslategray" || color == "darkgray" || color == "silver" || color == "lightgray" || color == "gainsboro")
 {
 colornum11(color, filename);//inputs the data into the file and puts it in the console too.
-
 }
 }
 void colorcompair12(string color, string filename){
-if (color != "mediumvioletred" || color != "deeppink" || color != "palevioletred" || color != "hotpink" || color != "lightpink" || color != "pink" || color != "darkred" || color != "red" || color != "firebrick" || color != "crimson" || color != "indianred" || color != "lightcoral" || color != "salmon" || color != "darksalmon" || color != "lightsalmon" || color != "darkkhaki" || color != "gold" || color != "khaki" || color != "peachpuff" || color != "yellow" || color != "palegoldenrod" || color != "moccasin" || color != "papayawhip" || color != "lightgoldenrodyellow" || color != "lemonchiffon" || color != "lightyellow" || color != "maroon" || color != "brown" || color != "saddlebrown" || color != "sienna" || color != "chocolate" || color != "darkgoldenrod" || color != "peru" || color != "rosybrown" || color != "goldenrod" || color != "sandybrown" || color != "tan" || color != "burlywood" || color != "wheat"|| color != "navajowhite" || color != "bisque" || color != "blanchedalmond" || color != "cornsilk" || color != "darkgreen" || color != "green" || color != "darkolivegreen" || color != "forestgreen" || color != "seagreen" || color != "olive" || color != "olivedrab" || color != "mediumseagreen" || color != "limegreen" || color != "lime" || color != "springgreen" || color != "mediumspringgreen" || color != "darkseagreen" || color != "mediumaquamarine" || color != "yellowgreen" || color != "lawngreen" || color != "chartreuse" || color != "lightgreen" || color != "greenyellow" || color != "palegreen" || color != "orangered" || color != "tomato" || color != "darkorange" || color != "coral" || color != "orange" || color != "teal" || color != "darkcyan" || color != "lightseagreen" || color != "cadetblue" || color != "darkturquoise" || color != "mediumturquoise" || color != "turquoise" || color != "aqua" || color != "cyan" || color != "aquamarine" || color != "paleturquoise" ||color != "lightcyan" || color != "navy" || color != "darkblue" || color != "mediumblue" || color != "blue" || color != "midnightblue" || color != "royalblue" || color != "steelblue" || color != "dodgerblue" || color != "deepskyblue" || color != "cornflowerblue" || color != "skyblue" || color != "lightskyblue" || color != "lightsteelblue" || color != "lightblue" || color != "powderblue" || color != "indigo" || color != "purple" || color != "darkmagenta" || color != "darkviolet" || color != "darkslateblue" || color != "blueviolet" || color != "darkorchid" || color != "fuchsia" || color != "magenta" || color != "slateblue" || color != "mediumslateblue" || color != "mediumorchid" || color != "mediumpurple" || color != "orchid" || color != "violet" || color != "plum" || color != "thistle" || color != "lavender" || color != "mistyrose" || color != "antiquewhite" || color != "linen" || color != "beige" || color != "whitesmoke" || color != "lavenderblush" || color != "oldlace" || color != "aliceblue" || color != "seashell" || color != "ghostwhite" || color != "honeydew" || color != "floralwhite" || color != "azure" || color != "mintcream"|| color != "snow" || color != "ivory" || color != "white" || color != "black" || color != "darkslategray" || color != "dimgray" || color != "slategray" || color != "gray" || color != "lightslategray" || color != "darkgray" || color != "silver" || color != "lightgray" || color != "gainsboro")
-{
+if (color == "mediumvioletred" || color == "deeppink" || color == "palevioletred" || color == "hotpink" || color == "lightpink" || color == "pink"||color == "darkred" ||color == "red" ||color == "firebrick" ||color == "crimson" ||color == "indianred" ||color == "lightcoral" ||color == "salmon" || color == "darksalmon" || color == "lightsalmon"||color == "darkkhaki" || color == "gold" || color == "khaki" || color == "peachpuff" || color == "yellow" || color == "palegoldenrod" || color == "moccasin" || color == "papayawhip" || color == "lightgoldenrodyellow" || color == "lemonchiffon" || color == "lightyellow"||color == "maroon" || color == "brown" || color == "saddlebrown" || color == "sienna" || color == "chocolate" || color == "darkgoldenrod" || color == "peru" || color == "rosybrown" || color == "goldenrod" || color == "sandybrown" || color == "tan" || color == "burlywood" || color == "wheat" || color == "navajowhite" || color == "bisque" || color == "blanchedalmond" || color == "cornsilk"||color == "darkgreen" || color == "green" || color == "darkolivegreen" || color == "forestgreen" || color == "seagreen" || color == "olive" || color == "olivedrab" || color == "mediumseagreen" || color == "limegreen" || color == "lime" || color == "springgreen" || color == "mediumspringgreen" || color == "darkseagreen" || color == "mediumaquamarine" || color == "yellowgreen" || color == "lawngreen" || color == "chartreuse" || color == "lightgreen" || color == "greenyellow" || color == "palegreen"||color == "orangered" || color == "tomato" || color == "darkorange" || color == "coral" || color == "orange"||color == "teal" || color == "darkcyan" || color == "lightseagreen" || color == "cadetblue" || color == "darkturquoise" || color == "mediumturquoise" || color == "turquoise" || color == "aqua" || color == "cyan" || color == "aquamarine" || color == "paleturquoise" ||color == "lightcyan"||color == "navy" || color == "darkblue" || color == "mediumblue" || color == "blue" || color == "midnightblue" || color == "royalblue" || color == "steelblue" || color == "dodgerblue" || color == "deepskyblue" || color == "cornflowerblue" || color == "skyblue" || color == "lightskyblue" || color == "lightsteelblue" || color == "lightblue" || color == "powderblue"||color == "indigo" || color == "purple" || color == "darkmagenta" || color == "darkviolet" || color == "darkslateblue" || color == "blueviolet" || color == "darkorchid" || color == "fuchsia" || color == "magenta" || color == "slateblue" || color == "mediumslateblue" || color == "mediumorchid" || color == "mediumpurple" || color == "orchid" || color == "violet" || color == "plum" || color == "thistle" || color == "lavender"||color == "mistyrose" || color == "antiquewhite" || color == "linen" || color == "beige" || color == "whitesmoke" || color == "lavenderblush" || color == "oldlace" || color == "aliceblue" || color == "seashell" || color == "ghostwhite" || color == "honeydew" || color == "floralwhite" || color == "azure" || color == "mintcream"|| color == "snow" || color == "ivory" || color == "white"||color == "black" || color == "darkslategray" || color == "dimgray" || color == "slategray" || color == "gray" || color == "lightslategray" || color == "darkgray" || color == "silver" || color == "lightgray" || color == "gainsboro")
+{int x=1;}
+else{
 cout <<"Not one of the SVG colors" <<endl;//if none of the colors are detected then it will return this statement.
 }
 }
@@ -445,8 +446,8 @@ string colorfulpersonality()// function that lets you input the value for person
     cin >> personality;
 
     int loop =2;
-    if (personality != "average" || personality != "reserved" || personality != "selfcentered" || personality != "rolemodel")
-    cout << "you did not enter one of the listed personalites" << endl;
+    //if (personality != "average" || personality != "reserved" || personality != "selfcentered" || personality != "rolemodel")
+    //cout << "you did not enter one of the listed personalites" << endl;
     return personality;
   } 
 
@@ -484,8 +485,9 @@ cin >> color;
 
 transform(color.begin(), color.end(), color.begin(), ::tolower);
 
-int loop = 1;
 
+int loop = 1;
+if (colorgenmethod == "colorgenerator"){
 while (loop==1){
 if (again== "yes")
 {cout << "Enter a premade svg color from the list of 147 on this website https://www.december.com/html/spec/colorsvg.html ." << endl;
@@ -496,12 +498,13 @@ transform(color.begin(), color.end(), color.begin(), ::tolower);//making color n
 }
 colors color1 {color, colorgenmethod, filename, personality};
 color1.color = color;
+
  
 //newly included
 if (color1.colorgenmethod == "colorgenerator")// basic colorgenerator
 {
 colors color1 {color, colorgenmethod, filename, personality};
-
+int z;
 
 colorcompair1(color1.color, color1.filename);// if it is "MediumVioletRed", "DeepPink", "PaleVioletRed", "HotPink", "LightPink", or "Pink" it will gerate the colors using this command.
 
@@ -525,19 +528,28 @@ colorcompair10(color1.color, color1.filename);// if it is "MistyRose", "AntiqueW
 
 colorcompair11(color1.color, color1.filename);// if it is "DarkSlateGray", "DimGray", "SlateGray", "Gray", "LightSlateGray", "DarkGray", "Silver", "LightGray", or "Gainsboro" it will gerate the colors using this command.
 
-colorcompair12(color1.color, color1.filename);//if it is none of the colors it will gerate a message saying that none of the colors match the imputed color.
-
+//colorcompair12(color1.color, color1.filename);//if it is none of the colors it will gerate a message saying that none of the colors match the imputed color.
+//if(z == 0)
+//{
+//cout <<"Not one of the SVG colors" <<endl;//if none of the colors are detected then it will return this statement.
+//}
 
 }
-cout << "Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program" << endl;
+cout << "If you did not see a list of colors then you did not choose a color. Would you like to make choose a diffrent color, type 'yes' to choose a diffrent color or type 'no' to end the program." << endl;
   cin >> again;
 transform(again.begin(), again.end(), again.begin(), ::tolower);
   if (again == "no")
   break;
-  
+  if(again == "yes")
+  {
+  }
+  if (z == 1)
+  {
+  z=0;  
+  }
 
 }
-
+}
 colors color1 {color, colorgenmethod, filename, personality};
 
 if (color1.colorgenmethod == "personalitytest")
@@ -575,7 +587,7 @@ if (color1.colorgenmethod == "personalitytest")
 
   //colorfulcompair12(color,personality, filename);
 
-  cout << "Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program" << endl;
+  cout << "If you did not see a list of colors then you did not choose a personality. Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program" << endl;
   cin >> again;
 transform(again.begin(), again.end(), again.begin(), ::tolower);// making the answer not casesensitive
   if (again == "no")

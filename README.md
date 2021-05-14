@@ -9,7 +9,7 @@
 
 ### v1.0 Updates
 
-*Coming soon*
+*I fixed many more bugs and made it much easier to use, made the colors available to find in one of the prompts in my code, I also added a class statement to keep things a bit more tidy and easier to use. I have also added more comments to make it easier to understand.*
 
 
 ## Developer
@@ -29,22 +29,40 @@ Here is an example of the program running:
 
 ```
 !!!"Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'.
-personalitytest
-Enter the file name.
-Nathan
-Enter a premade svg color.
-Red
-enter one of personality's listed that fits you the best ; 'average', 'reserved', 'selfcentered', 'rolemodel'.
-rolemodel
-Your list of color combinations is ; Red, Gold, DarkGreen, Indigo, White, and SlateGray."
-Another Example
-"Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'.
 colorgenerator
 Enter the file name.
 Nathan
-Enter a premade svg color.
-Pink
-Your list of color combinations is ; Pink, DarkRed, DarkGreen, Indigo, White, and Black."!!!
+Enter a premade svg color from the list of 147 on this website https://www.december.com/html/spec/colorsvg.html .
+pink
+Your list of color combinations is ; pink, DarkRed, DarkGreen, Indigo, White, and Black.
+If you did not see a list of colors then you did not choose a color. Would you like to make choose a diffrent color, type 'yes' to choose a diffrent color or type 'no' to end the program.
+yes
+Enter a premade svg color from the list of 147 on this website https://www.december.com/html/spec/colorsvg.html .
+gold
+Your list of color combinations is ; gold, DarkRed, DarkGreen, Indigo, White, and Black.
+If you did not see a list of colors then you did not choose a color. Would you like to make choose a diffrent color, type 'yes' to choose a diffrent color or type 'no' to end the program.
+no
+Exiting color vision project
+
+Would you like to generate colors using a name of a premade svg color if so enter 'colorgenerator', or if you would like to generate colors using the personality test type 'personalitytest'.
+personalityteSt
+Enter the file name.
+aPple
+Enter a premade svg color from the list of 147 on this website https://www.december.com/html/spec/colorsvg.html .
+WhIte
+enter one of personality's listed that fits you the best ; 'average', 'reserved', 'selfcentered', 'rolemodel'.
+average
+Your list of color combinations is ; white, DarkRed, DarkGreen, Indigo, Gold, and black.
+If you did not see a list of colors then you did not choose a personality. Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program
+yes
+enter one of personality's listed that fits you the best ; 'average', 'reserved', 'selfcentered', 'rolemodel'.
+rolemodle
+If you did not see a list of colors then you did not choose a personality. Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program
+yes
+enter one of personality's listed that fits you the best ; 'average', 'reserved', 'selfcentered', 'rolemodel'.
+selfcentered
+Your list of color combinations is ; white, DarkRed, DarkGreen, Indigo, Gold, and DimGray.
+If you did not see a list of colors then you did not choose a personality. Would you like to make choose a diffrent personality, type 'yes' to choose a diffrent personality or type 'no' to end the program"!!!
 ```
 
 ## C++ Guide
